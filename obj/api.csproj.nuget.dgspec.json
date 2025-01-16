@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Learning\\Api in .Net8\\Api\\api.csproj": {}
+    "D:\\Learning\\Api in .Net8\\api\\api.csproj": {}
   },
   "projects": {
-    "D:\\Learning\\Api in .Net8\\Api\\api.csproj": {
+    "D:\\Learning\\Api in .Net8\\api\\api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Learning\\Api in .Net8\\Api\\api.csproj",
+        "projectUniqueName": "D:\\Learning\\Api in .Net8\\api\\api.csproj",
         "projectName": "api",
-        "projectPath": "D:\\Learning\\Api in .Net8\\Api\\api.csproj",
+        "projectPath": "D:\\Learning\\Api in .Net8\\api\\api.csproj",
         "packagesPath": "C:\\Users\\Cyrille PIO\\.nuget\\packages\\",
-        "outputPath": "D:\\Learning\\Api in .Net8\\Api\\obj\\",
+        "outputPath": "D:\\Learning\\Api in .Net8\\api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
