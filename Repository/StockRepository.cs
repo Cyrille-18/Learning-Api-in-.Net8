@@ -30,7 +30,7 @@ namespace api.Repository
         {
             var stockModel = await _context.Stocks.FirstOrDefaultAsync(x => x.Id == id);
             _context.Stocks.Remove(stockModel);
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
             return stockModel;
 
         }
