@@ -1,0 +1,68 @@
+# Ignore Visual Studio user-specific files
+.vscode/
+*.code-workspace
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.app/
+*.vs/
+
+# Ignore dependency folders
+node_modules/
+packages/
+!packages/repositories.config
+
+# Ignore logs and temporary files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug/
+dist/
+tmp/
+
+# Ignore application secrets and config files
+appsettings.Development.json
+secrets.json
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore database and migration files
+*.mdf
+*.ldf
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Ignore Docker-related files
+.dockerignore
+docker-compose.override.yml
+
+# Ignore test-related files
+TestResults/
+coverage/
+coverage.lcov
+
+# Ignore publish and deployment artifacts
+publish/
+wwwroot/
