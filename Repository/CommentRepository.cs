@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using api.Data;
 using api.Interfaces;
 using api.Models;
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.EntityFrameworkCore;
 
 namespace api.Repository
@@ -29,9 +30,9 @@ namespace api.Repository
             return await _context.Comments.ToListAsync();
         }
 
-        public Task<Comment?> GetByIdAsync(int id)
+        public async Task<Comment?> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _context.Comments.FirstOrDefaultAsync(c => c.Id == id);
         }
     }
 }
