@@ -1,0 +1,1 @@
+Au cours de ce projet, j'ai développé une API en C# afin d'approfondir ma compréhension du fonctionnement et de la syntaxe. Pour cela, j'ai mis en place les différentes opérations du CRUD en interagissant avec une base de données SQL Server. Cette approche m'a permis de mieux appréhender la gestion des données et les bonnes pratiques du développement d'API.
